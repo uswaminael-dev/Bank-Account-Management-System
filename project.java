@@ -14,7 +14,7 @@ public class project {
     static Scanner sc = new Scanner(System.in);
 
     public static void main(String [] args){
-        loginMenu();
+        // loginMenu();
         try{
         File file = new File("projectFile.txt");
         file.createNewFile();
@@ -28,8 +28,9 @@ public class project {
         catch(Exception e){
             System.out.println("Error: " + e.getMessage());
         }
-        System.out.println("----- BANK ACCOUNT MANAGEMENT SYSTEM -----");
         
+        System.out.println("----- BANK ACCOUNT MANAGEMENT SYSTEM -----");
+        loginMenu();
     }
 
     //check this one

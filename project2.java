@@ -399,7 +399,6 @@ public class project2 {
     try {
         File file = new File("accounts.txt");
         file.createNewFile();
-
         if (!file.exists()) {
             return; 
         }
@@ -453,5 +452,4 @@ public class project2 {
     saveToFile();}
 
 }
-
 
