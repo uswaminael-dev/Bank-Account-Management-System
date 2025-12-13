@@ -203,18 +203,12 @@ public class project3{
                 int choice = sc.nextInt();
 
                 if (choice == 1) addAccount();
-                else if (choice == 2) 
-                    viewAccounts();
-                else if (choice == 3) 
-                    searchAccount();
-                else if (choice == 4) 
-                    updateAccount();
-		        else if (choice == 5) 
-                    deleteAccount();
-		        else if (choice == 6) 
-                    return;
-                else 
-                    System.out.println("Invalid choice!");
+                else if (choice == 2) viewAccounts();
+                else if (choice == 3) searchAccount();
+                else if (choice == 4) updateAccount();
+		else if (choice == 5) deleteAccount();
+		else if (choice == 6) return;
+                else System.out.println("Invalid choice!");
 
             } catch (InputMismatchException e) {
                 System.out.println("Please enter numbers only!");
